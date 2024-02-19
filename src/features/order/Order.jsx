@@ -13,7 +13,6 @@ import {
 function Order() {
    // Everyone can search for all orders, so for privacy reasons we're gonna exclude names or address, these are only for the restaurant staff
    const order=useLoaderData();
-   console.log(order)
 
    const {
       id,
