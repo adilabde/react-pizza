@@ -1,6 +1,5 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
 
-
 import Home from "./ui/Home"
 import Menu, { menuLoader } from "./features/menu/Menu"
 import Cart from "./features/cart/Cart"
@@ -40,7 +39,6 @@ const router=createBrowserRouter([
       element:<Order />,
       loader:OrderLoader,
       errorElement:<Error />
-
 
     }
    ]
